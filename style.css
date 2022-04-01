@@ -13,3 +13,12 @@ ul {
     padding: 0;
     gap: 10px;
 }
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-02 {
+    max-width: 400px;
+}
