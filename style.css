@@ -2,9 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-* {
-    border: 1px solid red;
-}
 .header {
     display: flex;
     height: 4em;
@@ -115,4 +112,32 @@ h1 {
     color: white;
     font-weight: 900;
     text-align: right;
+}
+
+.call {
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    height: 8em;
+    width: 60em;
+    background-color: #3498db;
+    border-radius: 0.5em;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-01 {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.call button {
+    border: 0.1em solid white;
+    padding: 0.5em 2em;
 }
