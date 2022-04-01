@@ -16,7 +16,7 @@ body {
     font-weight: bold;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     display: flex;
     margin: 0 0 0 auto;
@@ -58,4 +58,28 @@ button {
     width: 24em;
     height: 10em;
     background-color: #616a6b;
+}
+
+h1 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.info-image {
+    width: 8em;
+    height: 8em;
+    border-radius: 0.5em;
+    border: 0.2em solid #3498db;
+}
+
+.info-text {
+    width: 8em;
+    text-align: center;
 }
