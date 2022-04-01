@@ -1,0 +1,15 @@
+body {
+    font-family: roboto sans-serif;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 0 0 auto;
+    padding: 0;
+    gap: 10px;
+}
