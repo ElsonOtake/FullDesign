@@ -141,3 +141,12 @@ h1 {
     border: 0.1em solid white;
     padding: 0.5em 2em;
 }
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    background-color: #616a6b;
+    color: white;
+}
