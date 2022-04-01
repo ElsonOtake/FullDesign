@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+* {
+    border: 1px solid red;
+}
 .header {
     display: flex;
     height: 4em;
@@ -68,6 +71,7 @@ h1 {
     display: flex;
     margin: 0;
     padding: 0;
+    height: 15em;
     list-style-type: none;
     justify-content: space-evenly;
 }
@@ -82,4 +86,33 @@ h1 {
 .info-text {
     width: 8em;
     text-align: center;
+}
+
+.thor {
+    background-color: #808080;
+    height: 12em;
+    display: flex; 
+    align-items: center;
+}
+
+.quote {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 30em;
+    color: white;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+}
+
+.quote-author {
+    width: 45em;
+    color: white;
+    font-weight: 900;
+    text-align: right;
 }
