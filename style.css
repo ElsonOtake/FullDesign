@@ -7,6 +7,13 @@ body {
     height: 4em;
     background-color: black;
     color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: large;
+    font-weight: bold;
 }
 
 ul {
