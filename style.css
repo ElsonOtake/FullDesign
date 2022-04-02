@@ -94,7 +94,7 @@ button {
 }
 
 .thor {
-    background-color: #808080;
+    background-color: #e5e7eb;
     height: 12em;
     display: flex; 
     align-items: center;
@@ -110,14 +110,15 @@ button {
 
 .quote-text {
     width: 30em;
-    color: white;
-    font-size: x-large;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
     margin-bottom: 0.5em;
 }
 
 .quote-author {
     width: 45em;
-    color: white;
+    color: #1f2937;
     font-weight: 900;
     text-align: right;
 }
