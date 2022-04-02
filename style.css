@@ -5,15 +5,15 @@ body {
 .header {
     display: flex;
     height: 4em;
-    background-color: black;
+    background-color: #1f2937;
     color: white;
     align-items: center;
     justify-content: space-around;
 }
 
 .header-logo {
-    font-size: large;
-    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header ul {
@@ -28,19 +28,22 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
+    background-color: #1f2937;
     color: white;
     height: 16em;
 }
 
 .content-01 {
-    font-size: xx-large;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
 }
 
 .content-02 {
     max-width: 25em;
     margin: 1em 0;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
@@ -142,11 +145,11 @@ h1 {
     padding: 0.5em 2em;
 }
 
-.copyright {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 4em;
-    background-color: #616a6b;
+    background-color: #1f2937;
     color: white;
 }
