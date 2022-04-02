@@ -47,7 +47,7 @@ body {
 }
 
 button {
-    background-color: #3498db;
+    background-color: #3882f6;
     color: white;
     border-radius: 0.5em;
     border: none;
@@ -63,8 +63,12 @@ button {
     background-color: #616a6b;
 }
 
-h1 {
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
     text-align: center;
+    color: #1f2937;
+    margin: 1em;
 }
 
 .info {
@@ -80,7 +84,8 @@ h1 {
     width: 8em;
     height: 8em;
     border-radius: 0.5em;
-    border: 0.2em solid #3498db;
+    border: 0.2em solid #3882f6;
+    margin-bottom: 0.3em;
 }
 
 .info-text {
@@ -127,7 +132,7 @@ h1 {
 .call-box {
     height: 8em;
     width: 60em;
-    background-color: #3498db;
+    background-color: #3882f6;
     border-radius: 0.5em;
     color: white;
     display: flex;
